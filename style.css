@@ -62,9 +62,9 @@ section .split {
 button {
   display: flex;
   position: absolute;
-  left: calc(50% - 21px);
+  left: calc(50% - 27px);
   bottom: -24px;
-  padding: 12px;
+  padding: 18px;
   border: none;
   border-radius: 50%;
   background: #53ffaa;
