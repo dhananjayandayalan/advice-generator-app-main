@@ -30,7 +30,7 @@ section {
   position: relative;
   background: #313a48;
   max-width: 540px;
-  min-width: 343px;
+  width: 100%;
   text-align: center;
   border-radius: 10px;
 }
@@ -47,6 +47,10 @@ section p {
   font-size: clamp(1.5rem, calc(0.93rem + 2.42vw), 1.75rem);
   padding-top: 1.5rem;
   color: #cee3e9;
+  height: 140px;
+  overflow-y: auto;
+  display: grid;
+  place-items: center;
   padding-inline: clamp(1.5rem, calc(-1.91rem + 14.55vw), 3rem);
 }
 
@@ -73,4 +77,14 @@ button:hover {
 
 button img {
   width: 18px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: white;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
