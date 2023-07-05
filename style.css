@@ -1,0 +1,76 @@
+:root {
+  font-family: 'Manrope', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+body {
+  background: #202733;
+  min-height: 100vh;
+}
+
+main {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  padding-inline: 1rem;
+}
+
+section {
+  position: relative;
+  background: #313a48;
+  max-width: 540px;
+  min-width: 343px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+section h3 {
+  padding-top: clamp(2.5rem, calc(1.36rem + 4.85vw), 3rem);
+  font-size: clamp(0.69rem, calc(0.4rem + 1.21vw), 0.81rem);
+  color: #53ffaa;
+  text-transform: uppercase;
+  letter-spacing: 3.4px;
+}
+
+section p {
+  font-size: clamp(1.5rem, calc(0.93rem + 2.42vw), 1.75rem);
+  padding-top: 1.5rem;
+  color: #cee3e9;
+  padding-inline: clamp(1.5rem, calc(-1.91rem + 14.55vw), 3rem);
+}
+
+section .split {
+  padding-top: clamp(1.5rem, calc(-0.77rem + 9.7vw), 2.5rem);
+  padding-bottom: clamp(3rem, calc(2.15rem + 3.64vw), 3.38rem);
+}
+
+button {
+  display: flex;
+  position: absolute;
+  left: calc(50% - 21px);
+  bottom: -24px;
+  padding: 12px;
+  border: none;
+  border-radius: 50%;
+  background: #53ffaa;
+  cursor: pointer;
+}
+
+button:hover {
+  box-shadow: 0px 0px 16px 2px #53ffaa;
+}
+
+button img {
+  width: 18px;
+}
