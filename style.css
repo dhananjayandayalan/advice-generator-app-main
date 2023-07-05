@@ -35,7 +35,7 @@ section {
   border-radius: 10px;
 }
 
-section h3 {
+section h1 {
   padding-top: clamp(2.5rem, calc(1.36rem + 4.85vw), 3rem);
   font-size: clamp(0.69rem, calc(0.4rem + 1.21vw), 0.81rem);
   color: #53ffaa;
